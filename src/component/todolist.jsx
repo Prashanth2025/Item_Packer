@@ -46,7 +46,7 @@ function Todolist() {
       <section>
         <div className="card p-0 mb-2 mt-2 m-auto w-50">
           <div className="card-header bg-dark text-light">
-            <h4>Add Items You Need for Class</h4>
+            <h4>Add Items that You need to Pack</h4>
           </div>
           <div className="card-body border border-3 border-dark rounded-bottom">
             <input
