@@ -1,0 +1,7 @@
+img {
+  width: fit-content;
+  height: fit-content;
+}
+.user-select {
+  user-select: none;
+}
