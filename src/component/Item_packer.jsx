@@ -127,11 +127,6 @@ function Itempacker() {
           </section>
         </section>
       )}
-      <div className="m-auto mt-1 text-center bg">
-        <p className="text-primary fw-bold m-auto">
-          The Items you have entered is {packedCount}
-        </p>
-      </div>
     </>
   );
 }
