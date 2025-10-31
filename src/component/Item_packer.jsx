@@ -2,7 +2,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.css";
 import React, { useState } from "react";
 
-function Todolist() {
+function Itempacker() {
   const [itemName, setItemName] = useState("");
   const [quantity, setQuantity] = useState("");
   const [items, setItems] = useState([]);
@@ -136,4 +136,4 @@ function Todolist() {
   );
 }
 
-export default Todolist;
+export default Itempacker;
