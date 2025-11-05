@@ -1,0 +1,26 @@
+.footer {
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode support */
+.dark-mode .footer {
+  background-color: #1e1e1e;
+  border-top: 1px solid #444;
+  color: #ccc;
+}
+
+.dark-mode .footer-link {
+  color: #66b2ff;
+}

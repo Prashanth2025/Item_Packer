@@ -1,7 +1,130 @@
+/* Base styles */
+body {
+  background-color: #f2f2f2;
+  font-family: "Segoe UI", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 img {
   width: fit-content;
   height: fit-content;
 }
+
 .user-select {
   user-select: none;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeInUp 0.4s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Buttons and cards */
+.btn:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Progress bar */
+progress {
+  transition: all 0.5s ease-in-out;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+  background-color: #0d6efd;
+}
+
+/* Navbar */
+.custom-navbar {
+  background: linear-gradient(90deg, #00bcd4, #3f51b5);
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: #f2f2f2;
+}
+
+.dark-mode .card,
+.dark-mode .card-body,
+.dark-mode .form-control,
+.dark-mode .form-select,
+.dark-mode .list-group-item {
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+  border-color: #444;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder,
+.dark-mode select {
+  color: #ccc;
+}
+
+.dark-mode .btn {
+  color: #fff;
+}
+
+.dark-mode progress::-webkit-progress-bar {
+  background-color: #333;
+}
+
+.dark-mode progress::-webkit-progress-value {
+  background-color: #00bcd4;
+}
+
+.dark-mode .custom-navbar {
+  background: linear-gradient(90deg, #333, #555);
+}
+
+.dark-mode .footer {
+  background-color: #1e1e1e;
+  border-top: 1px solid #444;
+  color: #ccc;
+}
+
+.dark-mode .footer-link {
+  color: #66b2ff;
 }
