@@ -53,4 +53,4 @@ I wanted to create a utility app that solves a real-world problem — helping pe
 
 I'm Prashanth — a frontend developer focused on React, Bootstrap, and UI/UX design. I build apps that solve real problems and look great doing it.
 
-📬 [LinkedIn](https://www.linkedin.com/in/prashanth2005r/) • 🧑‍💻 [GitHub]('https://github.com/Prashanth2025')
+📬 [LinkedIn](https://www.linkedin.com/in/prashanth2005r/) • 🧑‍💻 [GitHub](https://github.com/Prashanth2025)
