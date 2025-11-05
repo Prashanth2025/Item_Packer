@@ -4,7 +4,7 @@ A smart, responsive packing assistant built with React and Bootstrap. Designed t
 
 ### 🔗 Live Site
 
-[Click here to explore Items Packer](https://item-packer-wguo.onrender.com/)
+[Click here to explore Items Packer](https://item-packer.onrender.com/))
 
 ---
 
