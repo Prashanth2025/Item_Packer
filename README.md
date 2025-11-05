@@ -1,20 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+## 🧳 Items Packer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart, responsive packing assistant built with React and Bootstrap. Designed to help users organize travel essentials with ease, this app reflects my focus on clean UI, interactive components, and real-world problem solving.
 
-Currently, two official plugins are available:
+### 🔗 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here to explore Items Packer](https://item-packer-wguo.onrender.com/)
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### ✨ What It Does
 
-## Expanding the ESLint configuration
+- Add items with name and category
+- Mark items as packed/unpacked
+- Delete items when no longer needed
+- View packed vs unpacked items in separate sections
+- Responsive layout with smooth hover effects and modern CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Item_packer
->>>>>>> 6ae575e6a804d6f10dc95bc9752826525a7e085c
+---
+
+### 🛠 Tech Stack
+
+| Tech                 | Purpose                               |
+| -------------------- | ------------------------------------- |
+| React                | Component-based UI                    |
+| Bootstrap            | Responsive layout & styling           |
+| CSS                  | Gradients, hover effects, transitions |
+| useState & useEffect | Dynamic state management              |
+
+---
+
+### 🎯 Why I Built This
+
+I wanted to create a utility app that solves a real-world problem — helping people pack smarter. It’s part of my portfolio to showcase:
+
+- Clean, responsive layouts
+- Interactive React components
+- UI/UX polish with Bootstrap and CSS
+- My ability to build and iterate on meaningful projects
+
+---
+
+### 🚀 Future Plans
+
+- Save packing lists by trip type
+- Add search and filter functionality
+- Persist data with localStorage or backend
+- Add dark mode toggle
+
+---
+
+### 🙋‍♂️ About Me
+
+I'm Prashanth — a frontend developer focused on React, Bootstrap, and UI/UX design. I build apps that solve real problems and look great doing it.
+
+📬 [LinkedIn](https://www.linkedin.com/in/prashanth2005r/) • 🧑‍💻 [GitHub]('https://github.com/Prashanth2025')
